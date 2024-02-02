@@ -1,7 +1,7 @@
 {{ define "main" }}
-    <div>
-        {{ range .Pages }}
-            <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+    <div class="container">
+        {{ range .Pages.ByWeight }}
+            <h2><a href="{{.Permalink}}" style="text-decoration: none;">{{ .Title }}</a></h2>
         {{ end }}
     </div>
 {{ end }}
