@@ -1,7 +1,6 @@
 ---
 title: 'Asciidoc 教程 (一)'
 date: 2024-02-02T10:01:23+08:00
-draft: true
 ---
 
 == Asciidoc 教程 (一)
